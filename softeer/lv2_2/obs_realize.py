@@ -25,4 +25,7 @@ for i in range(N):
         if ans != 0:
             answers.append(ans)
             
-print(answers)
+answers.sort()
+print(len(answers))
+for answer in answers:
+    print(answer)
