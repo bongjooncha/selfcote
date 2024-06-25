@@ -15,6 +15,8 @@ for expence in expences:
     elif W == expence[0]:
         ans += expence[1] * expence[0]
         break
-    else: ans += expence[1] * W
+    else: 
+        ans += expence[1] * W
+        break
 
 print(ans)
