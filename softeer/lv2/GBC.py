@@ -32,4 +32,6 @@ for i in range(len(N_SPEEDS)):
         ans = max(ans,ms - ns)
 
 print(ans)
-    
+
+
+# _2에서 해결. 전체를 확인 안하고 check마지막 지점에서만 확인해서 틀림
