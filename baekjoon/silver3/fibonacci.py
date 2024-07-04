@@ -1,3 +1,4 @@
+# https://www.acmicpc.net/problem/1003
 N = int(input())
 numbs = [int(input()) for _ in range(N)]
 
