@@ -1,13 +1,13 @@
 # https://www.acmicpc.net/problem/18126
 import sys
 sys.setrecursionlimit(10**9)
+N = int(sys.stdin.readline())
 
-N=int(input())
-graphs = [list(map(int, input().split())) for _ in range(N-1)]
 Tree=[ [] for _ in range(N+1) ]
-
-[Tree[a].append((b, c)) for a, b, c in graphs]
-[Tree[b].append((a, c)) for a, b, c in graphs]
+for i in range(1, N):
+    a, b, c = map(int, sys.stdin.readline().split())
+    Tree[a].append([b, c])
+    Tree[b].append([a, c])
 
 distances = [0] * (N+1)
 
