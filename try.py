@@ -1,9 +1,2 @@
-import itertools
-
-N = int(input().strip())
-
-digi = list(str(N))
-
-per = sorted(set(itertools.permutations(digi)))
-
-print(sorted(list(itertools.permutations(digi))))
+a = 1+1*(1+8*(1+2*(1)))
+print(a)
