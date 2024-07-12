@@ -15,7 +15,6 @@ for i in range(N,0,-1):
     if i > max(tree[i]):
         ans[i]=i
     else:
-        befor = 1e9
         befor = min([ans[j] for j in tree[i] if j > i])
         ans[i] = i-befor
 
