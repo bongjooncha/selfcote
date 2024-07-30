@@ -13,9 +13,7 @@ def dfs(x,y):
         dfs(x,y+1)
 
 for i in range(T):
-    # 가로, 세로, 개수
     M, N, K = map(int, input().split())
-    # x가 M, y가 N
     graph = [[0]*M for _ in range(N)]
     for i in range(K):
         x,y = map(int, input().split())
