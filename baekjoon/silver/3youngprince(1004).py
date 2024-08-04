@@ -10,8 +10,9 @@ for i in range(T):
         st =(x1-x)**2+(y1-y)**2
         en = (x2-x)**2+(y2-y)**2
         rsq = r**2
-        if st 
-        if st > rsq and en > rsq:
+        if st < rsq and en < rsq:
+            pass 
+        elif st > rsq and en > rsq:
             pass
         else:
             ans +=1
