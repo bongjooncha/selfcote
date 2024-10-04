@@ -15,4 +15,4 @@ for _ in range(n):
             ans -= 1
             break
     ans+=1
-    print(ans)
+print(ans)
