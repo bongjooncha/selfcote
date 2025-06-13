@@ -52,7 +52,6 @@ def dfs(n, maps):
                     self.visited[nx][ny] = True
                     if self.solve(nx, ny):
                         return True
-                    
             return False
     
     solver = DFS_solve(n, maps)
@@ -98,5 +97,5 @@ N이 3인 경우:
 #     elif n == 3:
 #         return grid_3(maps)
 
-# print("HaruHaru" if super_grid(N,MAPS) else "Hing")
+print("HaruHaru" if super_grid(N,MAPS) else "Hing")
 
